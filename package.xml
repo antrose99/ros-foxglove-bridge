@@ -16,6 +16,7 @@
     <depend condition="$ROS_VERSION == 1">ros_babel_fish</depend>
     <depend condition="$ROS_VERSION == 1">roscpp</depend>
     <depend condition="$ROS_VERSION == 1">roslib</depend>
+    <depend condition="$ROS_VERSION == 1">foxglove_msgs</depend>
 
     <!-- ROS 2 runtime dependencies -->
     <depend condition="$ROS_VERSION == 2">ament_index_cpp</depend>
